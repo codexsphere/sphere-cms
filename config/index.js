@@ -35,9 +35,9 @@ db : {
   },
 },
 development : {
-    database: 'setup',
-    username: 'root',
-    password: '',
+    database: 'spherecms',
+    username: 'adminer',
+    password: 'adminer',
     params: {
       dialect: 'mysql',
       logging: (sql) => {
