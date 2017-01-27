@@ -3,7 +3,17 @@ const Users  = require('../db').Users;
 module.exports = {
   getHomePage : (req, res) => {
       res.status(200);
-      res.render("index", {title: "EXPRESS-SEQUELIZE"})
+      res.render("index", {title: "ivan"})
+  },
+
+  getTheme : (req, res) => {
+      res.status(200);
+      res.render("theme")
+  },
+
+  getSignup : (req, res) => {
+      res.status(200);
+      res.render("signup")
   },
   // deleteUsers: (req, res) => {
   //   Users.destroy({ where: { id: req.user.id } })
